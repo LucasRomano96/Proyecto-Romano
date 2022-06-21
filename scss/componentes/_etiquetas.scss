@@ -1,0 +1,11 @@
+body{
+    background-color: map-get($valores, bg-color);
+    background-image: map-get($valores, bi-color);
+    @include medidasBody
+}
+
+a{  
+    &:hover{
+        background-color: mediumpurple;
+    }
+}

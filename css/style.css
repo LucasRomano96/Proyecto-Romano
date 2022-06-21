@@ -1,62 +1,75 @@
-.tituloCentrado{
-    text-align: center;
-    color: rgb(175, 98, 148);
-    font-family: 'Roboto Slab', serif;
-    font-weight: 600;
+body {
+  background-color: rgb(248, 206, 236);
+  background-image: linear-gradient(315deg, #f8ceec 0%, #a88beb 74%);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
-body{
-    background-color: #f8ceec;
-    background-image: linear-gradient(315deg, #f8ceec 0%, #a88beb 74%);
-     display: flex;
-     flex-direction: column;
-     min-height: 100vh;
+a:hover {
+  background-color: mediumpurple;
 }
-.navbarModificada{
-    background-image: black;
-     font-family: 'Nunito', sans-serif;
-     font-weight: 300;
-     font-size: 1.2rem;
+
+.tituloCentrado {
+  text-align: center;
+  color: rgb(175, 98, 148);
+  font-family: "Roboto Slab", serif;
+  font-weight: 600;
 }
-.linkModificado{
-    color: rgb(243, 16, 8);
+
+.navbarModificada {
+  background-image: black;
+  font-family: "Nunito", sans-serif;
+  font-weight: 300;
+  font-size: 1.2rem;
 }
-a:hover{
-    background-color: mediumpurple;
+
+.linkModificado {
+  color: rgb(243, 16, 8);
 }
+
 .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(8, 8, 8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-  }
-.cards-mod{
-    display: flex;
-    justify-content: space-around;
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(8, 8, 8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
-.text-nosotros{
-    font-family: 'Nunito', sans-serif;
-     font-weight: 300;
-     font-size: 1.2rem;
-     color: rgb(22, 17, 17);
+
+.cards-mod {
+  display: flex;
+  justify-content: space-around;
 }
-.imagen-fondo{
-    height: 15rem;
-    opacity: 75%;
+
+.text-nosotros {
+  font-family: "Nunito", sans-serif;
+  font-weight: 300;
+  font-size: 1.2rem;
+  color: rgb(22, 17, 17);
 }
-.contenedor-baner{
-    position: relative;
-    display: inline-block;
-    text-align: center;
+
+.imagen-fondo {
+  height: 15rem;
+  opacity: 75%;
 }
-.texto-centrado{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: rgb(180, 82, 82);
+
+.contenedor-baner {
+  position: relative;
+  display: inline-block;
+  text-align: center;
 }
-.img-nosotros{
-    margin-left: 100px;
+
+.texto-centrado {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(180, 82, 82);
 }
-.form-centrado{
-    display: flex;
-    flex-wrap: wrap;
+
+.img-nosotros {
+  margin-left: 100px;
 }
+
+.form-centrado {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/*# sourceMappingURL=style.css.map */
