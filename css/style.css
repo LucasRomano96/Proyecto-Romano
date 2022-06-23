@@ -47,6 +47,8 @@ a:hover {
 .imagen-fondo {
   height: 15rem;
   opacity: 75%;
+  object-fit: cover;
+  object-position: 50% 70%;
 }
 
 .contenedor-baner {
@@ -75,6 +77,12 @@ a:hover {
   color: #fff;
   background-color: #a50dfd;
   border-color: #a50dfd;
+}
+.carrusel-definido{
+  object-fit: cover;
+  height: 400px;
+  width: 1000px;
+  object-position: 50% 50%;
 }
 
 /*# sourceMappingURL=style.css.map */
