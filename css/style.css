@@ -33,8 +33,7 @@ a:hover {
 }
 
 .cards-mod {
-  display: flex;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .text-nosotros {
