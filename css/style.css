@@ -25,7 +25,8 @@ a:hover {
 }
 
 .linkModificado {
-  color: #0d6efd;
+  color: #610dfd;
+  background-color: #f8ceec;
 }
 
 .navbar-toggler-icon {
@@ -61,7 +62,8 @@ a:hover {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: rgb(180, 82, 82);
+  color: #c66cff;
+  background-color: #fff;
 }
 
 .img-nosotros {
@@ -84,4 +86,22 @@ a:hover {
   object-position: 50% 50%;
 }
 
+.fondo-texto {
+  background-color: #f8ceec;
+}
+
+.flex-footer {
+  justify-content: space-between;
+}
+
+.logo-instagram:hover {
+  all:unset;
+  cursor:pointer;
+}
+
+@media (max-width: 422px) {
+  .flex-footer {
+    justify-content: center!important;
+}
+}
 /*# sourceMappingURL=style.css.map */
